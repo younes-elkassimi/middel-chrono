@@ -1,0 +1,71 @@
+body{
+    font-family: "Bahnschrift";
+    background-color: black;
+    
+}
+
+.timer-container{
+    background-color: #17153B;
+    box-shadow: 0 0 5px lightgray;
+    border: 1px solid hwb(135 12% 85% / 0.753);
+    border-radius: 20px;
+    margin-top: 20%;
+    width: auto;
+    
+    
+    
+
+
+}
+
+
+
+h1{
+    color: lightgray;
+    text-align: center;
+    font-size: 80px;
+    margin: 0;
+    width: auto;
+}
+
+
+@media(max-width:760px){
+  
+    .timer-container{
+        margin: 10px 0;
+        width: 100%;
+        margin-top: 50%;
+    }
+
+
+}
+
+@media(max-width:480px){
+    .timer-container h1{
+        width: 100%;
+        font-size: 50px;
+        margin: auto;
+        
+    }
+}
+
+@media(max-width:320px){
+    .timer-container h1{
+        width: 100%;
+        font-size: 30px;
+        margin: auto;
+        
+    }
+}
+
+@media(max-width:480px){
+    .timer-container{
+        margin-top: 50%;
+    }
+}
+
+@media(max-width:320px){
+    .timer-container{
+        margin-top: 50%;
+    }
+}
